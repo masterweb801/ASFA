@@ -1,1 +1,0 @@
-python E:\Codes\Python\ASFA\main.py
