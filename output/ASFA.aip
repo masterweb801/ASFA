@@ -10,13 +10,11 @@
     <ROW Property="ARPHELPTELEPHONE" Value="+8801973983783"/>
     <ROW Property="ARPPRODUCTICON" Value="ASFA.exe" Type="8"/>
     <ROW Property="ARPURLINFOABOUT" Value="https://www.logicrealm.rf.gd/"/>
-    <ROW Property="AiPreventAutoPin" Value="System.AppUserModel.ExcludeFromShowInNewInstall"/>
     <ROW Property="Manufacturer" Value="Logic Realm"/>
-    <ROW Property="ProductCode" Value="1033:{A01D4C2E-3278-40CE-98EE-4BD0482CCA2E} " Type="16"/>
+    <ROW Property="ProductCode" Value="1033:{CB557A6B-D7E4-42E3-A11D-B4521D4B9EE8} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="ASFA"/>
-    <ROW Property="ProductVersion" Value="1.2.2" Options="4"/>
-    <ROW Property="REBOOT" MultiBuildValue="DefaultBuild:Force"/>
+    <ROW Property="ProductVersion" Value="1.3.6" Options="4"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
     <ROW Property="UpgradeCode" Value="{BDA8E144-1023-46C3-BAF2-D5BCAD097C64}"/>
     <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
@@ -66,6 +64,7 @@
     <ROW Directory="Chile_1_Dir" Directory_Parent="tzdata_Dir" DefaultDir="Chile"/>
     <ROW Directory="Chile_2_Dir" Directory_Parent="zoneinfo_1_Dir" DefaultDir="Chile"/>
     <ROW Directory="Chile_Dir" Directory_Parent="zoneinfo_Dir" DefaultDir="Chile"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
     <ROW Directory="Etc_1_Dir" Directory_Parent="tzdata_Dir" DefaultDir="Etc"/>
     <ROW Directory="Etc_2_Dir" Directory_Parent="zoneinfo_1_Dir" DefaultDir="Etc"/>
     <ROW Directory="Etc_Dir" Directory_Parent="zoneinfo_Dir" DefaultDir="Etc"/>
@@ -90,6 +89,8 @@
     <ROW Directory="Pacific_1_Dir" Directory_Parent="tzdata_Dir" DefaultDir="Pacific"/>
     <ROW Directory="Pacific_2_Dir" Directory_Parent="zoneinfo_1_Dir" DefaultDir="Pacific"/>
     <ROW Directory="Pacific_Dir" Directory_Parent="zoneinfo_Dir" DefaultDir="Pacific"/>
+    <ROW Directory="ProgramMenuFolder" Directory_Parent="TARGETDIR" DefaultDir="PROGRA~1|ProgramMenuFolder" IsPseudoRoot="1"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
     <ROW Directory="StartupFolder" Directory_Parent="TARGETDIR" DefaultDir="STARTU~1|StartupFolder" IsPseudoRoot="1"/>
     <ROW Directory="SystemV_Dir" Directory_Parent="tzdata_Dir" DefaultDir="SystemV"/>
     <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
@@ -137,121 +138,123 @@
     <ROW Directory="zope_Dir" Directory_Parent="_internal_Dir" DefaultDir="zope"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
-    <ROW Component="ACT" ComponentId="{2C98D57C-8FFC-4BF8-93B9-4515127825C0}" Directory_="Australia_Dir" Attributes="0" KeyPath="ACT" Type="0"/>
-    <ROW Component="ACT_1" ComponentId="{F220AE52-BF2E-4E1F-AC8D-7F31FCF049DE}" Directory_="Australia_1_Dir" Attributes="0" KeyPath="ACT_1" Type="0"/>
-    <ROW Component="ACT_2" ComponentId="{529A1EDB-F5A0-45F5-8C88-AB216A3A646C}" Directory_="Australia_2_Dir" Attributes="0" KeyPath="ACT_2" Type="0"/>
+    <ROW Component="ACT" ComponentId="{3F204774-D6F3-4DC5-8B9C-A91AD5C46E85}" Directory_="Australia_Dir" Attributes="0" KeyPath="ACT" Type="0"/>
+    <ROW Component="ACT_1" ComponentId="{B7566E18-711B-4DF0-8273-691E9BDE15D7}" Directory_="Australia_1_Dir" Attributes="0" KeyPath="ACT_1" Type="0"/>
+    <ROW Component="ACT_2" ComponentId="{FA9FE035-303B-4FBD-BEF5-80D675AEF530}" Directory_="Australia_2_Dir" Attributes="0" KeyPath="ACT_2" Type="0"/>
     <ROW Component="APPDIR" ComponentId="{87CF0ACF-AC8B-4B13-A791-45CAADC4FDC0}" Directory_="APPDIR" Attributes="0"/>
-    <ROW Component="ASFA.exe" ComponentId="{DD9FC3AB-9747-4C5C-A597-27CA3F501CB0}" Directory_="APPDIR" Attributes="256" KeyPath="ASFA.exe"/>
-    <ROW Component="AST4" ComponentId="{8E02A816-8EFA-4221-9A88-CED98B297AA7}" Directory_="SystemV_Dir" Attributes="0" KeyPath="AST4" Type="0"/>
-    <ROW Component="AUTHORS" ComponentId="{B4DF5D8D-33E9-4E3E-9EFE-F187D08D5E4D}" Directory_="gevent23.9.1.distinfo_Dir" Attributes="0" KeyPath="AUTHORS" Type="0"/>
-    <ROW Component="AUTHORS_1" ComponentId="{9F080E7B-D946-4BD5-BD15-37F1483DFF49}" Directory_="greenlet3.0.3.distinfo_Dir" Attributes="0" KeyPath="AUTHORS_1" Type="0"/>
-    <ROW Component="Abidjan" ComponentId="{6CCD846F-9CFE-457F-9686-D1FE843E39A8}" Directory_="Africa_Dir" Attributes="0" KeyPath="Abidjan" Type="0"/>
-    <ROW Component="Abidjan_1" ComponentId="{C5AAEE66-14FF-4E86-B67C-DDC245D611F9}" Directory_="Africa_1_Dir" Attributes="0" KeyPath="Abidjan_1" Type="0"/>
-    <ROW Component="Abidjan_2" ComponentId="{1E39A246-BC29-4985-8BC7-5333D1E37911}" Directory_="Africa_2_Dir" Attributes="0" KeyPath="Abidjan_2" Type="0"/>
-    <ROW Component="Acre" ComponentId="{2DD5EEA3-B566-4275-A853-A0B47C066A91}" Directory_="Brazil_Dir" Attributes="0" KeyPath="Acre" Type="0"/>
-    <ROW Component="Acre_1" ComponentId="{5EEDD61D-F876-45F2-B292-68A9889CEEB6}" Directory_="Brazil_1_Dir" Attributes="0" KeyPath="Acre_1" Type="0"/>
-    <ROW Component="Acre_2" ComponentId="{0CAEDF8D-FA3C-4652-A4F8-CC2A6229CA61}" Directory_="Brazil_2_Dir" Attributes="0" KeyPath="Acre_2" Type="0"/>
-    <ROW Component="Adak" ComponentId="{E972E0CA-10B2-4465-ABB8-660187E04155}" Directory_="America_Dir" Attributes="0" KeyPath="Adak" Type="0"/>
-    <ROW Component="Adak_1" ComponentId="{5BC657D4-0F80-4A0E-8704-75EF49EE4218}" Directory_="America_1_Dir" Attributes="0" KeyPath="Adak_1" Type="0"/>
-    <ROW Component="Adak_2" ComponentId="{979EF756-50EB-4E07-8249-58C645033620}" Directory_="America_2_Dir" Attributes="0" KeyPath="Adak_2" Type="0"/>
-    <ROW Component="Aden" ComponentId="{31B803D6-2411-461E-9825-5567FF8C3F2E}" Directory_="Asia_Dir" Attributes="0" KeyPath="Aden" Type="0"/>
-    <ROW Component="Aden_1" ComponentId="{F5B83B37-F135-46EB-890B-6BD294E18F41}" Directory_="Asia_1_Dir" Attributes="0" KeyPath="Aden_1" Type="0"/>
-    <ROW Component="Aden_2" ComponentId="{9CC8BD4F-3F9C-48BB-A6EF-F8B8C5D4B373}" Directory_="Asia_2_Dir" Attributes="0" KeyPath="Aden_2" Type="0"/>
-    <ROW Component="Alaska" ComponentId="{9AAF6726-10E5-438B-9F4E-94A7C828A6D2}" Directory_="US_Dir" Attributes="0" KeyPath="Alaska" Type="0"/>
-    <ROW Component="Alaska_1" ComponentId="{00C79C0E-A454-4F72-8F8F-D4EA5FD5629A}" Directory_="US_1_Dir" Attributes="0" KeyPath="Alaska_1" Type="0"/>
-    <ROW Component="Alaska_2" ComponentId="{976C66F2-4E7E-4689-81CF-7660CDC9A17F}" Directory_="US_2_Dir" Attributes="0" KeyPath="Alaska_2" Type="0"/>
-    <ROW Component="Amsterdam" ComponentId="{5C65254D-F366-4C03-8EB1-3021D29407EA}" Directory_="Europe_Dir" Attributes="0" KeyPath="Amsterdam" Type="0"/>
-    <ROW Component="Amsterdam_1" ComponentId="{29DE1F8C-2BD6-4E9D-A865-6A2B3ACADC01}" Directory_="Europe_1_Dir" Attributes="0" KeyPath="Amsterdam_1" Type="0"/>
-    <ROW Component="Amsterdam_2" ComponentId="{9AE23E2E-750F-4E82-876E-282DC5B8E6E7}" Directory_="Europe_2_Dir" Attributes="0" KeyPath="Amsterdam_2" Type="0"/>
-    <ROW Component="Antananarivo" ComponentId="{72D1638F-B348-4D21-A94F-0274E3992FA2}" Directory_="Indian_Dir" Attributes="0" KeyPath="Antananarivo" Type="0"/>
-    <ROW Component="Antananarivo_1" ComponentId="{381686D8-16B4-47DF-86A4-F849F23CB7C2}" Directory_="Indian_1_Dir" Attributes="0" KeyPath="Antananarivo_1" Type="0"/>
-    <ROW Component="Antananarivo_2" ComponentId="{444A4A02-F1D5-4558-9E0F-2D1CC4D4F61F}" Directory_="Indian_2_Dir" Attributes="0" KeyPath="Antananarivo_2" Type="0"/>
-    <ROW Component="Apia" ComponentId="{E1697764-86C5-4225-9595-B2F7C1E3EDB4}" Directory_="Pacific_Dir" Attributes="0" KeyPath="Apia" Type="0"/>
-    <ROW Component="Apia_1" ComponentId="{A3601F49-8D65-468F-A90B-5C6315FCF50B}" Directory_="Pacific_1_Dir" Attributes="0" KeyPath="Apia_1" Type="0"/>
-    <ROW Component="Apia_2" ComponentId="{D4FD5E23-4F43-45DE-8211-5825D8E8705D}" Directory_="Pacific_2_Dir" Attributes="0" KeyPath="Apia_2" Type="0"/>
-    <ROW Component="Atlantic" ComponentId="{070DAFD8-E381-47BA-A183-EDF77B04069E}" Directory_="Canada_Dir" Attributes="0" KeyPath="Atlantic" Type="0"/>
-    <ROW Component="Atlantic_4" ComponentId="{C4C73658-C95E-456B-B49B-0295159FDF72}" Directory_="Canada_1_Dir" Attributes="0" KeyPath="Atlantic_1" Type="0"/>
-    <ROW Component="Atlantic_5" ComponentId="{4E582629-90D2-410E-9480-5B6AFE6B6E4A}" Directory_="Canada_2_Dir" Attributes="0" KeyPath="Atlantic_2" Type="0"/>
-    <ROW Component="Azores" ComponentId="{DD20F81F-19DB-4B7A-AFF3-173FF413BCFE}" Directory_="Atlantic_Dir" Attributes="0" KeyPath="Azores" Type="0"/>
-    <ROW Component="Azores_1" ComponentId="{B28680BC-1BEA-4559-8D8B-7F3CA1C54AED}" Directory_="Atlantic_1_Dir" Attributes="0" KeyPath="Azores_1" Type="0"/>
-    <ROW Component="Azores_2" ComponentId="{DF2EF3A2-C3DC-4F4B-92C1-07F4ABA05B55}" Directory_="Atlantic_2_Dir" Attributes="0" KeyPath="Azores_2" Type="0"/>
-    <ROW Component="BajaNorte" ComponentId="{E187E223-427E-483D-92F7-0B514CC243CC}" Directory_="Mexico_Dir" Attributes="0" KeyPath="BajaNorte" Type="0"/>
-    <ROW Component="BajaNorte_1" ComponentId="{EA4955C3-87E9-48E8-ADB0-3C2A0B257819}" Directory_="Mexico_1_Dir" Attributes="0" KeyPath="BajaNorte_1" Type="0"/>
-    <ROW Component="BajaNorte_2" ComponentId="{2EF4D911-20CF-4D02-8267-78E34D496644}" Directory_="Mexico_2_Dir" Attributes="0" KeyPath="BajaNorte_2" Type="0"/>
-    <ROW Component="Beulah" ComponentId="{15FAD2F2-958A-4446-92FB-38D7792E555E}" Directory_="North_Dakota_Dir" Attributes="0" KeyPath="Beulah" Type="0"/>
-    <ROW Component="Beulah_1" ComponentId="{D8263414-6A05-4FC8-8135-76975FB2E4FA}" Directory_="North_Dakota_1_Dir" Attributes="0" KeyPath="Beulah_1" Type="0"/>
-    <ROW Component="Beulah_2" ComponentId="{1CD6EF1B-2082-4D28-AB62-38FDFF2DCB39}" Directory_="North_Dakota_2_Dir" Attributes="0" KeyPath="Beulah_2" Type="0"/>
-    <ROW Component="Buenos_Aires" ComponentId="{F75D37CE-4B1D-476D-BF90-0F44623C62F6}" Directory_="Argentina_Dir" Attributes="0" KeyPath="Buenos_Aires" Type="0"/>
-    <ROW Component="Buenos_Aires_1" ComponentId="{0F24C8FC-6987-4361-9E3F-5B08E21A0D62}" Directory_="Argentina_1_Dir" Attributes="0" KeyPath="Buenos_Aires_2" Type="0"/>
-    <ROW Component="Buenos_Aires_2" ComponentId="{7733B6E0-1B17-4FFE-AD50-977E025576C2}" Directory_="Argentina_2_Dir" Attributes="0" KeyPath="Buenos_Aires_4" Type="0"/>
-    <ROW Component="CET" ComponentId="{CE442C9C-0BD0-49F7-912A-B11E86DE3D85}" Directory_="zoneinfo_Dir" Attributes="0" KeyPath="CET" Type="0"/>
-    <ROW Component="CET_1" ComponentId="{066E2E37-E72E-4166-AB40-A320EA347C82}" Directory_="tzdata_Dir" Attributes="0" KeyPath="CET_1" Type="0"/>
-    <ROW Component="CET_2" ComponentId="{AFA344D2-4037-4EAE-BFD3-971684EA5732}" Directory_="zoneinfo_1_Dir" Attributes="0" KeyPath="CET_2" Type="0"/>
-    <ROW Component="Casey" ComponentId="{7BA942CC-6FAB-4114-83FF-7AE33329CE1F}" Directory_="Antarctica_Dir" Attributes="0" KeyPath="Casey" Type="0"/>
-    <ROW Component="Casey_1" ComponentId="{4DE29829-A37C-42FE-B442-AD2E83710B8A}" Directory_="Antarctica_1_Dir" Attributes="0" KeyPath="Casey_1" Type="0"/>
-    <ROW Component="Casey_2" ComponentId="{187B25E2-41AE-465D-9227-C34BACBC06B4}" Directory_="Antarctica_2_Dir" Attributes="0" KeyPath="Casey_2" Type="0"/>
-    <ROW Component="Continental" ComponentId="{173265A7-18E7-44EC-AAC9-CE9E341FFC24}" Directory_="Chile_Dir" Attributes="0" KeyPath="Continental" Type="0"/>
-    <ROW Component="Continental_1" ComponentId="{6F624311-3AD8-4FC2-919C-65A8F8041380}" Directory_="Chile_1_Dir" Attributes="0" KeyPath="Continental_1" Type="0"/>
-    <ROW Component="Continental_2" ComponentId="{D448E1F8-F1B8-4B2E-8588-58D307E55EC8}" Directory_="Chile_2_Dir" Attributes="0" KeyPath="Continental_2" Type="0"/>
-    <ROW Component="GMT" ComponentId="{14FF9E8E-616F-4DEE-9B42-B63CB42C9278}" Directory_="Etc_Dir" Attributes="0" KeyPath="GMT" Type="0"/>
-    <ROW Component="GMT_1" ComponentId="{E555ECFB-723A-44BC-9BD8-6651A910CCFF}" Directory_="Etc_1_Dir" Attributes="0" KeyPath="GMT_2" Type="0"/>
-    <ROW Component="GMT_2" ComponentId="{B570170C-CD4A-4C0E-9E59-A1C74E1D4986}" Directory_="Etc_2_Dir" Attributes="0" KeyPath="GMT_4" Type="0"/>
-    <ROW Component="INSTALLER" ComponentId="{21E61DA2-9825-4391-970F-34B28D7EA666}" Directory_="pycparser2.21.distinfo_Dir" Attributes="0" KeyPath="INSTALLER_4" Type="0"/>
-    <ROW Component="INSTALLER_1" ComponentId="{52FE29FF-5567-4A8D-9555-3EE020821E2A}" Directory_="pytz2023.3.post1.distinfo_Dir" Attributes="0" KeyPath="INSTALLER_5" Type="0"/>
-    <ROW Component="INSTALLER_2" ComponentId="{82F7C4B2-A1AD-4307-8917-03BE8C49572B}" Directory_="six1.16.0.distinfo_Dir" Attributes="0" KeyPath="INSTALLER_7" Type="0"/>
-    <ROW Component="INSTALLER_3" ComponentId="{1C6290BC-0E9C-440B-9728-7E1DA8272DC9}" Directory_="tzdata2023.4.distinfo_Dir" Attributes="0" KeyPath="INSTALLER_8" Type="0"/>
-    <ROW Component="INSTALLER_4" ComponentId="{E35400CC-9524-48AA-B568-676794964454}" Directory_="tzlocal5.2.distinfo_Dir" Attributes="0" KeyPath="INSTALLER_9" Type="0"/>
-    <ROW Component="INSTALLER_5" ComponentId="{201ACE96-4433-4D9E-B40B-7984DA43C9D9}" Directory_="zope.event5.0.distinfo_Dir" Attributes="0" KeyPath="INSTALLER_10" Type="0"/>
-    <ROW Component="INSTALLER_6" ComponentId="{026FBF02-D89C-4F5B-B295-EB2845F12BD7}" Directory_="zope.interface6.1.distinfo_Dir" Attributes="0" KeyPath="INSTALLER_11" Type="0"/>
-    <ROW Component="Indianapolis" ComponentId="{748ACF35-C1FD-4F0E-96A5-21ED423431D0}" Directory_="Indiana_Dir" Attributes="0" KeyPath="Indianapolis" Type="0"/>
-    <ROW Component="Indianapolis_1" ComponentId="{FCB40ACB-A973-4529-9543-A1E731528B54}" Directory_="Indiana_1_Dir" Attributes="0" KeyPath="Indianapolis_2" Type="0"/>
-    <ROW Component="Indianapolis_2" ComponentId="{890397C6-09D2-4426-B709-01896AA38DBB}" Directory_="Indiana_2_Dir" Attributes="0" KeyPath="Indianapolis_4" Type="0"/>
-    <ROW Component="Longyearbyen" ComponentId="{3D66C39C-20D1-4070-A9EE-E4E338563113}" Directory_="Arctic_Dir" Attributes="0" KeyPath="Longyearbyen" Type="0"/>
-    <ROW Component="Longyearbyen_1" ComponentId="{9346B482-90E3-4F44-B912-4C4AA90C5766}" Directory_="Arctic_1_Dir" Attributes="0" KeyPath="Longyearbyen_1" Type="0"/>
-    <ROW Component="Longyearbyen_2" ComponentId="{A3C1FA1A-3B35-459D-BCD1-0B7DC8C1B5CD}" Directory_="Arctic_2_Dir" Attributes="0" KeyPath="Longyearbyen_2" Type="0"/>
-    <ROW Component="Louisville" ComponentId="{4AD68CAA-683E-4DC5-8337-338EFA1135D0}" Directory_="Kentucky_Dir" Attributes="0" KeyPath="Louisville" Type="0"/>
-    <ROW Component="Louisville_1" ComponentId="{24EECC19-4C93-4590-BD3A-412751B6091D}" Directory_="Kentucky_1_Dir" Attributes="0" KeyPath="Louisville_2" Type="0"/>
-    <ROW Component="Louisville_2" ComponentId="{2E539B0E-CF99-47BE-A32A-BF7D702EB6CD}" Directory_="Kentucky_2_Dir" Attributes="0" KeyPath="Louisville_4" Type="0"/>
+    <ROW Component="ASFA.exe" ComponentId="{C00ED522-CB94-4759-A3A0-B8313D5795AC}" Directory_="APPDIR" Attributes="256" KeyPath="ASFA.exe"/>
+    <ROW Component="AST4" ComponentId="{5ACD0B05-E7E0-4B20-B61F-4742870E1E29}" Directory_="SystemV_Dir" Attributes="0" KeyPath="AST4" Type="0"/>
+    <ROW Component="AUTHORS" ComponentId="{59270743-83D4-4279-B438-BE63B75977B2}" Directory_="gevent23.9.1.distinfo_Dir" Attributes="0" KeyPath="AUTHORS" Type="0"/>
+    <ROW Component="AUTHORS_1" ComponentId="{1FF6AE14-5789-406D-B5C1-86ECD852ABD1}" Directory_="greenlet3.0.3.distinfo_Dir" Attributes="0" KeyPath="AUTHORS_1" Type="0"/>
+    <ROW Component="Abidjan" ComponentId="{CBECE844-9F45-441A-923E-B0C74536FD9E}" Directory_="Africa_Dir" Attributes="0" KeyPath="Abidjan" Type="0"/>
+    <ROW Component="Abidjan_1" ComponentId="{F5C5173A-946C-4C5A-AA7E-B60927439679}" Directory_="Africa_1_Dir" Attributes="0" KeyPath="Abidjan_1" Type="0"/>
+    <ROW Component="Abidjan_2" ComponentId="{EBD72D09-6589-474A-954F-4730D82C5D3B}" Directory_="Africa_2_Dir" Attributes="0" KeyPath="Abidjan_2" Type="0"/>
+    <ROW Component="Acre" ComponentId="{12675C44-7DF7-41AA-8ED3-2C8364FD7516}" Directory_="Brazil_Dir" Attributes="0" KeyPath="Acre" Type="0"/>
+    <ROW Component="Acre_1" ComponentId="{417BC02C-79EB-4E0A-8650-4EFCF45F1726}" Directory_="Brazil_1_Dir" Attributes="0" KeyPath="Acre_1" Type="0"/>
+    <ROW Component="Acre_2" ComponentId="{DE2ED9BB-2B17-4026-AC6D-58A9073C2010}" Directory_="Brazil_2_Dir" Attributes="0" KeyPath="Acre_2" Type="0"/>
+    <ROW Component="Adak" ComponentId="{605BB638-8F93-4970-967B-8D51962CAA4F}" Directory_="America_Dir" Attributes="0" KeyPath="Adak" Type="0"/>
+    <ROW Component="Adak_1" ComponentId="{0999F3C9-6B52-4AD9-81CF-BDA91285379C}" Directory_="America_1_Dir" Attributes="0" KeyPath="Adak_1" Type="0"/>
+    <ROW Component="Adak_2" ComponentId="{D59D8D6F-671E-457E-AAEA-CA271BF4CB86}" Directory_="America_2_Dir" Attributes="0" KeyPath="Adak_2" Type="0"/>
+    <ROW Component="Aden" ComponentId="{7A448A2C-C557-4B14-B588-98A4F2629FCF}" Directory_="Asia_Dir" Attributes="0" KeyPath="Aden" Type="0"/>
+    <ROW Component="Aden_1" ComponentId="{A40E69BC-FA92-4715-95E4-AE369EAD5A8B}" Directory_="Asia_1_Dir" Attributes="0" KeyPath="Aden_1" Type="0"/>
+    <ROW Component="Aden_2" ComponentId="{833ED053-8769-4859-995B-45158F1BEDBF}" Directory_="Asia_2_Dir" Attributes="0" KeyPath="Aden_2" Type="0"/>
+    <ROW Component="Alaska" ComponentId="{213A9282-D8BA-406A-8966-67A790E73929}" Directory_="US_Dir" Attributes="0" KeyPath="Alaska" Type="0"/>
+    <ROW Component="Alaska_1" ComponentId="{BF30E7D6-CDA3-44FC-A75C-3ADDB1CEAAE4}" Directory_="US_1_Dir" Attributes="0" KeyPath="Alaska_1" Type="0"/>
+    <ROW Component="Alaska_2" ComponentId="{1E471D17-1372-45F4-861F-1261365ADE60}" Directory_="US_2_Dir" Attributes="0" KeyPath="Alaska_2" Type="0"/>
+    <ROW Component="Amsterdam" ComponentId="{71D2B8D3-48D9-48BB-BF6E-DC46524DDD15}" Directory_="Europe_Dir" Attributes="0" KeyPath="Amsterdam" Type="0"/>
+    <ROW Component="Amsterdam_1" ComponentId="{43FA6B73-D5B7-4F4F-91B9-507D0E0AD1D5}" Directory_="Europe_1_Dir" Attributes="0" KeyPath="Amsterdam_1" Type="0"/>
+    <ROW Component="Amsterdam_2" ComponentId="{3677AD8C-28BC-4EDA-A65C-35C47091FF96}" Directory_="Europe_2_Dir" Attributes="0" KeyPath="Amsterdam_2" Type="0"/>
+    <ROW Component="Antananarivo" ComponentId="{7E7A9ED3-9C2A-4B9C-85F0-F54109AC356E}" Directory_="Indian_Dir" Attributes="0" KeyPath="Antananarivo" Type="0"/>
+    <ROW Component="Antananarivo_1" ComponentId="{69EBA068-2A69-4FD7-AB82-ED0DC860D68E}" Directory_="Indian_1_Dir" Attributes="0" KeyPath="Antananarivo_1" Type="0"/>
+    <ROW Component="Antananarivo_2" ComponentId="{D27EEC24-DA14-47FD-9FEA-1270E4423B2F}" Directory_="Indian_2_Dir" Attributes="0" KeyPath="Antananarivo_2" Type="0"/>
+    <ROW Component="Apia" ComponentId="{BB6F326F-A3B7-41D4-ADA8-26481EFF2E3D}" Directory_="Pacific_Dir" Attributes="0" KeyPath="Apia" Type="0"/>
+    <ROW Component="Apia_1" ComponentId="{E94A667A-5FAC-4E5E-ADC3-677E8CA2188C}" Directory_="Pacific_1_Dir" Attributes="0" KeyPath="Apia_1" Type="0"/>
+    <ROW Component="Apia_2" ComponentId="{900C8118-0BD1-4CF5-BDFE-DEA4203E27D1}" Directory_="Pacific_2_Dir" Attributes="0" KeyPath="Apia_2" Type="0"/>
+    <ROW Component="Atlantic" ComponentId="{85230EA7-A213-4603-A5B6-655FEC63E2E9}" Directory_="Canada_Dir" Attributes="0" KeyPath="Atlantic" Type="0"/>
+    <ROW Component="Atlantic_2" ComponentId="{CBAFBCAA-8A09-4A11-8437-8470D304ABE5}" Directory_="Canada_1_Dir" Attributes="0" KeyPath="Atlantic_1" Type="0"/>
+    <ROW Component="Atlantic_3" ComponentId="{E5645673-F910-4FFF-910D-88A25C393B34}" Directory_="Canada_2_Dir" Attributes="0" KeyPath="Atlantic_2" Type="0"/>
+    <ROW Component="Azores" ComponentId="{29BF5BCC-B556-4DAA-9021-45918535E353}" Directory_="Atlantic_Dir" Attributes="0" KeyPath="Azores" Type="0"/>
+    <ROW Component="Azores_1" ComponentId="{1E63ABE3-B104-414A-A27B-F8F43D57149D}" Directory_="Atlantic_1_Dir" Attributes="0" KeyPath="Azores_1" Type="0"/>
+    <ROW Component="Azores_2" ComponentId="{DBE32C82-3CBB-4B9C-96EA-A9808D325D00}" Directory_="Atlantic_2_Dir" Attributes="0" KeyPath="Azores_2" Type="0"/>
+    <ROW Component="BajaNorte" ComponentId="{A3CC97E5-73AC-4083-93FF-5E1904820525}" Directory_="Mexico_Dir" Attributes="0" KeyPath="BajaNorte" Type="0"/>
+    <ROW Component="BajaNorte_1" ComponentId="{34CCE9B9-DC34-4D51-8943-46F69CFBB36F}" Directory_="Mexico_1_Dir" Attributes="0" KeyPath="BajaNorte_1" Type="0"/>
+    <ROW Component="BajaNorte_2" ComponentId="{1DA24268-95DC-40C6-AEF6-D0B289A3C105}" Directory_="Mexico_2_Dir" Attributes="0" KeyPath="BajaNorte_2" Type="0"/>
+    <ROW Component="Beulah" ComponentId="{0F4E1315-DDCA-41C1-ADF3-8322B0378E6B}" Directory_="North_Dakota_Dir" Attributes="0" KeyPath="Beulah" Type="0"/>
+    <ROW Component="Beulah_1" ComponentId="{886FEED0-8346-4492-803A-98BF3EE65CC4}" Directory_="North_Dakota_1_Dir" Attributes="0" KeyPath="Beulah_1" Type="0"/>
+    <ROW Component="Beulah_2" ComponentId="{9E19007C-1FA2-4272-946A-AB64A4351913}" Directory_="North_Dakota_2_Dir" Attributes="0" KeyPath="Beulah_2" Type="0"/>
+    <ROW Component="Buenos_Aires" ComponentId="{A359D588-1707-4331-B25C-D41D32AEF541}" Directory_="Argentina_Dir" Attributes="0" KeyPath="Buenos_Aires" Type="0"/>
+    <ROW Component="Buenos_Aires_1" ComponentId="{C125B538-ED64-4D04-B494-B8D53DD42704}" Directory_="Argentina_1_Dir" Attributes="0" KeyPath="Buenos_Aires_2" Type="0"/>
+    <ROW Component="Buenos_Aires_2" ComponentId="{4C4AB564-6C6D-4177-B2F1-8F00858D2AC4}" Directory_="Argentina_2_Dir" Attributes="0" KeyPath="Buenos_Aires_4" Type="0"/>
+    <ROW Component="CET" ComponentId="{2B2BFD1C-73CB-423C-BE94-C24916BA5111}" Directory_="zoneinfo_Dir" Attributes="0" KeyPath="CET" Type="0"/>
+    <ROW Component="CET_1" ComponentId="{6451C03A-D022-4438-98FD-92AA1D39FB4C}" Directory_="tzdata_Dir" Attributes="0" KeyPath="CET_1" Type="0"/>
+    <ROW Component="CET_2" ComponentId="{37695047-7A20-42F8-AC5F-FA8E705A866D}" Directory_="zoneinfo_1_Dir" Attributes="0" KeyPath="CET_2" Type="0"/>
+    <ROW Component="Casey" ComponentId="{4ED36171-A912-4025-8CDC-6A465643F6D0}" Directory_="Antarctica_Dir" Attributes="0" KeyPath="Casey" Type="0"/>
+    <ROW Component="Casey_1" ComponentId="{FD1A3DA3-9674-4116-85C2-099149C442D2}" Directory_="Antarctica_1_Dir" Attributes="0" KeyPath="Casey_1" Type="0"/>
+    <ROW Component="Casey_2" ComponentId="{07FECC69-30CA-4EBF-B178-966758072389}" Directory_="Antarctica_2_Dir" Attributes="0" KeyPath="Casey_2" Type="0"/>
+    <ROW Component="Continental" ComponentId="{29B7EA50-C7A1-4314-82F8-FA8B5B682810}" Directory_="Chile_Dir" Attributes="0" KeyPath="Continental" Type="0"/>
+    <ROW Component="Continental_1" ComponentId="{326366DA-6ECD-4FE3-AB07-80E05B826D63}" Directory_="Chile_1_Dir" Attributes="0" KeyPath="Continental_1" Type="0"/>
+    <ROW Component="Continental_2" ComponentId="{2452DF3F-0BC8-4190-BFE4-182550B38BBD}" Directory_="Chile_2_Dir" Attributes="0" KeyPath="Continental_2" Type="0"/>
+    <ROW Component="GMT" ComponentId="{BF2C754F-3B46-46F8-A324-898C927FE054}" Directory_="Etc_Dir" Attributes="0" KeyPath="GMT" Type="0"/>
+    <ROW Component="GMT_1" ComponentId="{F017C4B5-829D-4FCE-94AC-F2126E336566}" Directory_="Etc_1_Dir" Attributes="0" KeyPath="GMT_2" Type="0"/>
+    <ROW Component="GMT_2" ComponentId="{7AEE07DE-81F5-489A-9A68-F6EC3D308622}" Directory_="Etc_2_Dir" Attributes="0" KeyPath="GMT_4" Type="0"/>
+    <ROW Component="INSTALLER" ComponentId="{C666F4DD-F188-4630-9A6D-109DE40BB257}" Directory_="pycparser2.21.distinfo_Dir" Attributes="0" KeyPath="INSTALLER_4" Type="0"/>
+    <ROW Component="INSTALLER_1" ComponentId="{D207050D-97EC-4FB5-846D-DF204868C075}" Directory_="pytz2023.3.post1.distinfo_Dir" Attributes="0" KeyPath="INSTALLER_5" Type="0"/>
+    <ROW Component="INSTALLER_2" ComponentId="{2A8B5D50-8FD7-41D6-B916-20DB1BDE0F1A}" Directory_="six1.16.0.distinfo_Dir" Attributes="0" KeyPath="INSTALLER_7" Type="0"/>
+    <ROW Component="INSTALLER_3" ComponentId="{D3BC7DE5-25D9-4F4F-99B5-698BF807D07A}" Directory_="tzdata2023.4.distinfo_Dir" Attributes="0" KeyPath="INSTALLER_8" Type="0"/>
+    <ROW Component="INSTALLER_4" ComponentId="{C586DE29-1D12-41D9-B712-0810187CA13E}" Directory_="tzlocal5.2.distinfo_Dir" Attributes="0" KeyPath="INSTALLER_9" Type="0"/>
+    <ROW Component="INSTALLER_5" ComponentId="{DC790F5D-73F8-4C98-A374-84643D53F7F5}" Directory_="zope.event5.0.distinfo_Dir" Attributes="0" KeyPath="INSTALLER_10" Type="0"/>
+    <ROW Component="INSTALLER_6" ComponentId="{56357124-C387-4CC9-B689-6A7495CA57B2}" Directory_="zope.interface6.1.distinfo_Dir" Attributes="0" KeyPath="INSTALLER_11" Type="0"/>
+    <ROW Component="Indianapolis" ComponentId="{74833B5D-F3F4-4391-88A9-A13AB9119716}" Directory_="Indiana_Dir" Attributes="0" KeyPath="Indianapolis" Type="0"/>
+    <ROW Component="Indianapolis_1" ComponentId="{A546191C-B6BC-442B-873E-BA333D9E7D28}" Directory_="Indiana_1_Dir" Attributes="0" KeyPath="Indianapolis_2" Type="0"/>
+    <ROW Component="Indianapolis_2" ComponentId="{951823A7-B792-427E-B548-46889074EDD5}" Directory_="Indiana_2_Dir" Attributes="0" KeyPath="Indianapolis_4" Type="0"/>
+    <ROW Component="Longyearbyen" ComponentId="{D38B07EA-0333-420C-B7A6-0B8ED05FEC6A}" Directory_="Arctic_Dir" Attributes="0" KeyPath="Longyearbyen" Type="0"/>
+    <ROW Component="Longyearbyen_1" ComponentId="{9658542E-785F-4B8B-8E54-234BF182DBA0}" Directory_="Arctic_1_Dir" Attributes="0" KeyPath="Longyearbyen_1" Type="0"/>
+    <ROW Component="Longyearbyen_2" ComponentId="{DB30D7EA-3D3F-4C26-BBB5-1662EC3A4519}" Directory_="Arctic_2_Dir" Attributes="0" KeyPath="Longyearbyen_2" Type="0"/>
+    <ROW Component="Louisville" ComponentId="{9D527AE4-6B3F-45E9-8519-0E274E93BA1C}" Directory_="Kentucky_Dir" Attributes="0" KeyPath="Louisville" Type="0"/>
+    <ROW Component="Louisville_1" ComponentId="{53DC78AE-1477-439A-B81C-CFDA17A0A8A5}" Directory_="Kentucky_1_Dir" Attributes="0" KeyPath="Louisville_2" Type="0"/>
+    <ROW Component="Louisville_2" ComponentId="{499E9827-18F7-44EB-ACD6-1D93F500FB38}" Directory_="Kentucky_2_Dir" Attributes="0" KeyPath="Louisville_4" Type="0"/>
     <ROW Component="ProductInformation" ComponentId="{1E50919F-0093-4C51-9473-98E10796BDC1}" Directory_="APPDIR" Attributes="260" KeyPath="Version"/>
-    <ROW Component="VCRUNTIME140.dll" ComponentId="{7ED8B552-F3C5-425F-9FAA-65E7E96643EB}" Directory_="_internal_Dir" Attributes="256" KeyPath="VCRUNTIME140.dll"/>
-    <ROW Component="_corecffi.pyd" ComponentId="{BD4F065F-8E85-4860-B071-783D3C9A31AD}" Directory_="libuv_Dir" Attributes="256" KeyPath="_corecffi.pyd" Type="0"/>
-    <ROW Component="_gevent_cevent.cp311win_amd64.pyd" ComponentId="{F058E1F8-359E-4C12-A349-86FF1A7CF56B}" Directory_="gevent_Dir" Attributes="256" KeyPath="_gevent_cevent.cp311win_amd64.pyd" Type="0"/>
-    <ROW Component="_greenlet.cp311win_amd64.pyd" ComponentId="{B9299B1D-27F9-442B-85CF-55222477E3A5}" Directory_="greenlet_Dir" Attributes="256" KeyPath="_greenlet.cp311win_amd64.pyd" Type="0"/>
-    <ROW Component="_zope_interface_coptimizations.cp311win_amd64.pyd" ComponentId="{D1BDF76A-36DE-4BD0-989D-5339A4F36702}" Directory_="interface_Dir" Attributes="256" KeyPath="_zope_interface_coptimizations.cp311win_amd64.pyd" Type="0"/>
-    <ROW Component="af.msg" ComponentId="{53059628-7E7C-4CCC-B171-4580295C41DE}" Directory_="msgs_Dir" Attributes="0" KeyPath="af.msg" Type="0"/>
-    <ROW Component="altTheme.tcl" ComponentId="{D88FE56F-12AB-42B8-9F9A-6032748E18C6}" Directory_="ttk_Dir" Attributes="0" KeyPath="altTheme.tcl" Type="0"/>
-    <ROW Component="ascii.enc" ComponentId="{2FD352F3-6C94-4D81-A0A9-8CCE904D78B1}" Directory_="encoding_Dir" Attributes="0" KeyPath="ascii.enc" Type="0"/>
-    <ROW Component="auto.tcl" ComponentId="{F80D8FED-DBD7-43AC-86EC-4D099B38623D}" Directory_="tcl_Dir" Attributes="0" KeyPath="auto.tcl" Type="0"/>
-    <ROW Component="base_library.zip" ComponentId="{8B58AB91-E5FB-4DB6-838C-51AAA051E19D}" Directory_="_internal_Dir" Attributes="0" KeyPath="base_library.zip" Type="0"/>
-    <ROW Component="bgerror.tcl" ComponentId="{085A8443-8958-47EF-87F8-6849BCCF700D}" Directory_="tk_Dir" Attributes="0" KeyPath="bgerror.tcl" Type="0"/>
-    <ROW Component="cacert.pem" ComponentId="{CEEABDAE-4FF7-4F15-80CE-744A9F1B6BEF}" Directory_="certifi_Dir" Attributes="0" KeyPath="cacert.pem" Type="0"/>
-    <ROW Component="corecext.cp311win_amd64.pyd" ComponentId="{7353476D-509B-4AB0-ACD0-9A8184A0007C}" Directory_="libev_Dir" Attributes="256" KeyPath="corecext.cp311win_amd64.pyd" Type="0"/>
-    <ROW Component="cs.msg" ComponentId="{E108FA88-F48F-48D9-8499-EAE90651F700}" Directory_="msgs_1_Dir" Attributes="0" KeyPath="cs.msg_1" Type="0"/>
-    <ROW Component="entry_points.txt" ComponentId="{A928F116-B7B0-412E-8255-6D165B4F89CF}" Directory_="APScheduler3.6.3.distinfo_Dir" Attributes="0" KeyPath="entry_points.txt" Type="0"/>
-    <ROW Component="entry_points.txt_1" ComponentId="{91C76CE5-7F65-46B5-9385-3E398933287F}" Directory_="cffi1.16.0.distinfo_Dir" Attributes="0" KeyPath="entry_points.txt_1" Type="0"/>
-    <ROW Component="entry_points.txt_2" ComponentId="{0450ECC8-CED9-4CEE-B3AD-DC28B231EC06}" Directory_="setuptools65.5.0.distinfo_Dir" Attributes="0" KeyPath="entry_points.txt_3" Type="0"/>
-    <ROW Component="http.tcl" ComponentId="{21CA73CD-30AA-42A0-BFAA-211D772B2167}" Directory_="http1.0_Dir" Attributes="0" KeyPath="http.tcl" Type="0"/>
-    <ROW Component="http2.9.5.tm" ComponentId="{1F029874-5703-4438-82C0-61B7E859B615}" Directory_="__2_Dir" Attributes="0" KeyPath="http2.9.5.tm" Type="0"/>
-    <ROW Component="libcrypto3.dll" ComponentId="{6C91EA8F-FE94-4B51-86B3-E937C22F7BF4}" Directory_="_internal_Dir" Attributes="256" KeyPath="libcrypto3.dll"/>
-    <ROW Component="libffi8.dll" ComponentId="{6D1EF7C4-E25D-4E5C-840A-9E66A35EDDF1}" Directory_="_internal_Dir" Attributes="256" KeyPath="libffi8.dll"/>
-    <ROW Component="libssl3.dll" ComponentId="{9F888535-45B1-4891-8985-1EE8FEFA3B4D}" Directory_="_internal_Dir" Attributes="256" KeyPath="libssl3.dll"/>
-    <ROW Component="logo.eps" ComponentId="{0158E899-CEC1-4684-B246-AB01DF84C8B3}" Directory_="images_Dir" Attributes="0" KeyPath="logo.eps" Type="0"/>
-    <ROW Component="msgcat1.6.1.tm" ComponentId="{66AE80B0-5C8C-4B60-A584-F4A69EA988E6}" Directory_="__1_Dir" Attributes="0" KeyPath="msgcat1.6.1.tm" Type="0"/>
-    <ROW Component="optparse.tcl" ComponentId="{06F20374-8B5E-4113-946F-27B1035BCBB0}" Directory_="opt0.4_Dir" Attributes="0" KeyPath="optparse.tcl" Type="0"/>
-    <ROW Component="platform1.0.18.tm" ComponentId="{42DAA8B5-0BFC-448C-AE62-2B4153826F6C}" Directory_="__Dir" Attributes="0" KeyPath="platform1.0.18.tm" Type="0"/>
-    <ROW Component="python3.dll" ComponentId="{04FCBAA5-E91D-43EE-8069-E421E30FAE1C}" Directory_="_internal_Dir" Attributes="256" KeyPath="python3.dll"/>
-    <ROW Component="python311.dll" ComponentId="{92D942A6-7B14-4594-86B7-1ED978E89995}" Directory_="_internal_Dir" Attributes="256" KeyPath="python311.dll"/>
-    <ROW Component="shell1.1.4.tm" ComponentId="{2F09FEE5-BE8C-49D6-AF69-1724CC8F8E47}" Directory_="platform_Dir" Attributes="0" KeyPath="shell1.1.4.tm" Type="0"/>
-    <ROW Component="speedups.pyd" ComponentId="{7A994702-0C8B-4198-A147-C1EA24120F3B}" Directory_="tornado_Dir" Attributes="256" KeyPath="speedups.pyd" Type="0"/>
-    <ROW Component="tcl86t.dll" ComponentId="{1A17D642-4CDE-43AE-A08A-ECEA5267419D}" Directory_="_internal_Dir" Attributes="256" KeyPath="tcl86t.dll"/>
-    <ROW Component="tk86t.dll" ComponentId="{FEE80DF4-2399-47D1-A28A-6BEB4A572A8B}" Directory_="_internal_Dir" Attributes="256" KeyPath="tk86t.dll"/>
-    <ROW Component="zones" ComponentId="{E60BFD42-71CA-49D6-AB35-0BF8E1E3FA11}" Directory_="tzdata_1_Dir" Attributes="0" KeyPath="zones" Type="0"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{1D644A81-4CB7-40C4-BD7E-EABCA0C3B087}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="VCRUNTIME140.dll" ComponentId="{66832AF8-A45A-456D-90B8-4CE30205983C}" Directory_="_internal_Dir" Attributes="256" KeyPath="VCRUNTIME140.dll"/>
+    <ROW Component="_corecffi.pyd" ComponentId="{102CEA89-3957-40AA-A22C-68CFD87F9E63}" Directory_="libuv_Dir" Attributes="256" KeyPath="_corecffi.pyd" Type="0"/>
+    <ROW Component="_gevent_cevent.cp311win_amd64.pyd" ComponentId="{2E38048D-84A9-4C74-8637-5E722C4A9ED4}" Directory_="gevent_Dir" Attributes="256" KeyPath="_gevent_cevent.cp311win_amd64.pyd" Type="0"/>
+    <ROW Component="_greenlet.cp311win_amd64.pyd" ComponentId="{304CA04E-C341-4CB8-9C5D-AAE38BD8A6A4}" Directory_="greenlet_Dir" Attributes="256" KeyPath="_greenlet.cp311win_amd64.pyd" Type="0"/>
+    <ROW Component="_zope_interface_coptimizations.cp311win_amd64.pyd" ComponentId="{B3B7ACC4-B6E9-40D5-91B9-BEB0ECB2E701}" Directory_="interface_Dir" Attributes="256" KeyPath="_zope_interface_coptimizations.cp311win_amd64.pyd" Type="0"/>
+    <ROW Component="af.msg" ComponentId="{6B2C79F1-F671-4D69-9B65-4D06D736CF01}" Directory_="msgs_Dir" Attributes="0" KeyPath="af.msg" Type="0"/>
+    <ROW Component="altTheme.tcl" ComponentId="{E861CD74-790E-47FF-918D-C90A1D55A66F}" Directory_="ttk_Dir" Attributes="0" KeyPath="altTheme.tcl" Type="0"/>
+    <ROW Component="api_key.txt" ComponentId="{19541026-CE71-4827-89CA-F066F157BE65}" Directory_="_internal_Dir" Attributes="0" KeyPath="api_key.txt" Type="0"/>
+    <ROW Component="ascii.enc" ComponentId="{62558221-5255-48D1-86E3-CF04AA082DEF}" Directory_="encoding_Dir" Attributes="0" KeyPath="ascii.enc" Type="0"/>
+    <ROW Component="auto.tcl" ComponentId="{CE2CFBA4-2C13-4909-B52A-05DD05567DF5}" Directory_="tcl_Dir" Attributes="0" KeyPath="auto.tcl" Type="0"/>
+    <ROW Component="bgerror.tcl" ComponentId="{55322F98-2494-4BF5-9947-8F40EC6EDDDD}" Directory_="tk_Dir" Attributes="0" KeyPath="bgerror.tcl" Type="0"/>
+    <ROW Component="cacert.pem" ComponentId="{C8A05933-06DF-4FF6-9B0B-D54C2F82E01B}" Directory_="certifi_Dir" Attributes="0" KeyPath="cacert.pem" Type="0"/>
+    <ROW Component="corecext.cp311win_amd64.pyd" ComponentId="{420E6CEA-06DF-418A-8625-13B583EB0F30}" Directory_="libev_Dir" Attributes="256" KeyPath="corecext.cp311win_amd64.pyd" Type="0"/>
+    <ROW Component="cs.msg" ComponentId="{52F9F639-3A4C-484F-A27F-2B57B382B5A5}" Directory_="msgs_1_Dir" Attributes="0" KeyPath="cs.msg_1" Type="0"/>
+    <ROW Component="entry_points.txt" ComponentId="{841E76F2-396B-42BB-835A-61472EAFEF02}" Directory_="APScheduler3.6.3.distinfo_Dir" Attributes="0" KeyPath="entry_points.txt" Type="0"/>
+    <ROW Component="entry_points.txt_1" ComponentId="{A702079F-8493-4FB3-AA76-58BCC26DC79F}" Directory_="cffi1.16.0.distinfo_Dir" Attributes="0" KeyPath="entry_points.txt_1" Type="0"/>
+    <ROW Component="entry_points.txt_2" ComponentId="{265D5E68-2BC3-4B53-BE6B-95A5AD626876}" Directory_="setuptools65.5.0.distinfo_Dir" Attributes="0" KeyPath="entry_points.txt_3" Type="0"/>
+    <ROW Component="http.tcl" ComponentId="{4A1393D8-DC99-4C65-B047-A3E5E05A986B}" Directory_="http1.0_Dir" Attributes="0" KeyPath="http.tcl" Type="0"/>
+    <ROW Component="http2.9.5.tm" ComponentId="{BE91A67E-E85F-4AAA-BC8E-0353CCE39764}" Directory_="__2_Dir" Attributes="0" KeyPath="http2.9.5.tm" Type="0"/>
+    <ROW Component="libcrypto3.dll" ComponentId="{4BAF8EE4-31AC-4266-A7E4-B8745EDCE5DA}" Directory_="_internal_Dir" Attributes="256" KeyPath="libcrypto3.dll"/>
+    <ROW Component="libffi8.dll" ComponentId="{2C522155-9BFE-40E5-AB8A-88EA6F780BAE}" Directory_="_internal_Dir" Attributes="256" KeyPath="libffi8.dll"/>
+    <ROW Component="libssl3.dll" ComponentId="{3D9AA6D2-60D0-4302-9D9F-A62209EB6074}" Directory_="_internal_Dir" Attributes="256" KeyPath="libssl3.dll"/>
+    <ROW Component="logo.eps" ComponentId="{BA703455-85DF-4C23-86F8-413F2A644A4A}" Directory_="images_Dir" Attributes="0" KeyPath="logo.eps" Type="0"/>
+    <ROW Component="msgcat1.6.1.tm" ComponentId="{1A895ACA-2247-49F4-A3F8-D7F4AC967419}" Directory_="__1_Dir" Attributes="0" KeyPath="msgcat1.6.1.tm" Type="0"/>
+    <ROW Component="optparse.tcl" ComponentId="{E67EC307-8BB9-4D64-BAD0-D49708F36D64}" Directory_="opt0.4_Dir" Attributes="0" KeyPath="optparse.tcl" Type="0"/>
+    <ROW Component="platform1.0.18.tm" ComponentId="{18A68BB1-BB96-4FC3-B06D-D782F3DEF9B2}" Directory_="__Dir" Attributes="0" KeyPath="platform1.0.18.tm" Type="0"/>
+    <ROW Component="python3.dll" ComponentId="{8D903E1A-C74D-4E4F-9B1F-1DAB2DF7C8DB}" Directory_="_internal_Dir" Attributes="256" KeyPath="python3.dll"/>
+    <ROW Component="python311.dll" ComponentId="{8844E30D-2497-4683-ADF5-FCA398CA308D}" Directory_="_internal_Dir" Attributes="256" KeyPath="python311.dll"/>
+    <ROW Component="shell1.1.4.tm" ComponentId="{E4237529-6190-4B65-9502-FF631145CEAE}" Directory_="platform_Dir" Attributes="0" KeyPath="shell1.1.4.tm" Type="0"/>
+    <ROW Component="speedups.pyd" ComponentId="{004B6E3E-9950-4BA0-972E-4E1ED732BED7}" Directory_="tornado_Dir" Attributes="256" KeyPath="speedups.pyd" Type="0"/>
+    <ROW Component="tcl86t.dll" ComponentId="{1BE20C19-0159-448F-9E71-2F88FA39EA5F}" Directory_="_internal_Dir" Attributes="256" KeyPath="tcl86t.dll"/>
+    <ROW Component="tk86t.dll" ComponentId="{88D6E409-45AC-4414-862B-B20223B66BFC}" Directory_="_internal_Dir" Attributes="256" KeyPath="tk86t.dll"/>
+    <ROW Component="zones" ComponentId="{9C01E599-3E96-47EE-B5F7-DCCD9196A08C}" Directory_="tzdata_1_Dir" Attributes="0" KeyPath="zones" Type="0"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
     <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
     <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="api_key.txt" Component_="api_key.txt" FileName="api_key.txt" Attributes="0" SourcePath="ASFA\_internal\api_key.txt" SelfReg="false"/>
     <ROW File="entry_points.txt" Component_="entry_points.txt" FileName="ENTRY_~1.TXT|entry_points.txt" Attributes="0" SourcePath="ASFA\_internal\APScheduler-3.6.3.dist-info\entry_points.txt" SelfReg="false"/>
     <ROW File="INSTALLER" Component_="entry_points.txt" FileName="INSTAL~1|INSTALLER" Attributes="0" SourcePath="ASFA\_internal\APScheduler-3.6.3.dist-info\INSTALLER" SelfReg="false"/>
     <ROW File="LICENSE.txt" Component_="entry_points.txt" FileName="LICENSE.txt" Attributes="0" SourcePath="ASFA\_internal\APScheduler-3.6.3.dist-info\LICENSE.txt" SelfReg="false"/>
@@ -259,7 +262,7 @@
     <ROW File="RECORD" Component_="entry_points.txt" FileName="RECORD" Attributes="0" SourcePath="ASFA\_internal\APScheduler-3.6.3.dist-info\RECORD" SelfReg="false"/>
     <ROW File="top_level.txt" Component_="entry_points.txt" FileName="TOP_LE~1.TXT|top_level.txt" Attributes="0" SourcePath="ASFA\_internal\APScheduler-3.6.3.dist-info\top_level.txt" SelfReg="false"/>
     <ROW File="WHEEL" Component_="entry_points.txt" FileName="WHEEL" Attributes="0" SourcePath="ASFA\_internal\APScheduler-3.6.3.dist-info\WHEEL" SelfReg="false"/>
-    <ROW File="base_library.zip" Component_="base_library.zip" FileName="BASE_L~1.ZIP|base_library.zip" Attributes="0" SourcePath="ASFA\_internal\base_library.zip" SelfReg="false"/>
+    <ROW File="base_library.zip" Component_="api_key.txt" FileName="BASE_L~1.ZIP|base_library.zip" Attributes="0" SourcePath="ASFA\_internal\base_library.zip" SelfReg="false"/>
     <ROW File="cacert.pem" Component_="cacert.pem" FileName="cacert.pem" Attributes="0" SourcePath="ASFA\_internal\certifi\cacert.pem" SelfReg="false"/>
     <ROW File="py.typed" Component_="cacert.pem" FileName="PY~1.TYP|py.typed" Attributes="0" SourcePath="ASFA\_internal\certifi\py.typed" SelfReg="false"/>
     <ROW File="entry_points.txt_1" Component_="entry_points.txt_1" FileName="ENTRY_~1.TXT|entry_points.txt" Attributes="0" SourcePath="ASFA\_internal\cffi-1.16.0.dist-info\entry_points.txt" SelfReg="false"/>
@@ -302,8 +305,8 @@
     <ROW File="RECORD_3" Component_="AUTHORS_1" FileName="RECORD" Attributes="0" SourcePath="ASFA\_internal\greenlet-3.0.3.dist-info\RECORD" SelfReg="false"/>
     <ROW File="top_level.txt_3" Component_="AUTHORS_1" FileName="TOP_LE~1.TXT|top_level.txt" Attributes="0" SourcePath="ASFA\_internal\greenlet-3.0.3.dist-info\top_level.txt" SelfReg="false"/>
     <ROW File="WHEEL_3" Component_="AUTHORS_1" FileName="WHEEL" Attributes="0" SourcePath="ASFA\_internal\greenlet-3.0.3.dist-info\WHEEL" SelfReg="false"/>
-    <ROW File="iconpng.png" Component_="base_library.zip" FileName="icon-png.png" Attributes="0" SourcePath="ASFA\_internal\icon-png.png" SelfReg="false"/>
-    <ROW File="icon.ico" Component_="base_library.zip" FileName="icon.ico" Attributes="0" SourcePath="ASFA\_internal\icon.ico" SelfReg="false"/>
+    <ROW File="iconpng.png" Component_="api_key.txt" FileName="icon-png.png" Attributes="0" SourcePath="ASFA\_internal\icon-png.png" SelfReg="false"/>
+    <ROW File="icon.ico" Component_="api_key.txt" FileName="icon.ico" Attributes="0" SourcePath="ASFA\_internal\icon.ico" SelfReg="false"/>
     <ROW File="libcrypto3.dll" Component_="libcrypto3.dll" FileName="LIBCRY~1.DLL|libcrypto-3.dll" Attributes="0" SourcePath="ASFA\_internal\libcrypto-3.dll" SelfReg="false"/>
     <ROW File="libffi8.dll" Component_="libffi8.dll" FileName="libffi-8.dll" Attributes="0" SourcePath="ASFA\_internal\libffi-8.dll" SelfReg="false"/>
     <ROW File="libssl3.dll" Component_="libssl3.dll" FileName="libssl-3.dll" Attributes="0" SourcePath="ASFA\_internal\libssl-3.dll" SelfReg="false"/>
@@ -313,7 +316,7 @@
     <ROW File="RECORD_4" Component_="INSTALLER" FileName="RECORD" Attributes="0" SourcePath="ASFA\_internal\pycparser-2.21.dist-info\RECORD" SelfReg="false"/>
     <ROW File="top_level.txt_4" Component_="INSTALLER" FileName="TOP_LE~1.TXT|top_level.txt" Attributes="0" SourcePath="ASFA\_internal\pycparser-2.21.dist-info\top_level.txt" SelfReg="false"/>
     <ROW File="WHEEL_4" Component_="INSTALLER" FileName="WHEEL" Attributes="0" SourcePath="ASFA\_internal\pycparser-2.21.dist-info\WHEEL" SelfReg="false"/>
-    <ROW File="pyexpat.pyd" Component_="base_library.zip" FileName="pyexpat.pyd" Attributes="0" SourcePath="ASFA\_internal\pyexpat.pyd" SelfReg="false"/>
+    <ROW File="pyexpat.pyd" Component_="api_key.txt" FileName="pyexpat.pyd" Attributes="0" SourcePath="ASFA\_internal\pyexpat.pyd" SelfReg="false"/>
     <ROW File="python3.dll" Component_="python3.dll" FileName="python3.dll" Attributes="0" SourcePath="ASFA\_internal\python3.dll" SelfReg="false"/>
     <ROW File="python311.dll" Component_="python311.dll" FileName="PYTHON~1.DLL|python311.dll" Attributes="0" SourcePath="ASFA\_internal\python311.dll" SelfReg="false"/>
     <ROW File="Abidjan" Component_="Abidjan" FileName="Abidjan" Attributes="0" SourcePath="ASFA\_internal\pytz\zoneinfo\Africa\Abidjan" SelfReg="false"/>
@@ -925,7 +928,7 @@
     <ROW File="top_level.txt_5" Component_="INSTALLER_1" FileName="TOP_LE~1.TXT|top_level.txt" Attributes="0" SourcePath="ASFA\_internal\pytz-2023.3.post1.dist-info\top_level.txt" SelfReg="false"/>
     <ROW File="WHEEL_5" Component_="INSTALLER_1" FileName="WHEEL" Attributes="0" SourcePath="ASFA\_internal\pytz-2023.3.post1.dist-info\WHEEL" SelfReg="false"/>
     <ROW File="zipsafe" Component_="INSTALLER_1" FileName="zip-safe" Attributes="0" SourcePath="ASFA\_internal\pytz-2023.3.post1.dist-info\zip-safe" SelfReg="false"/>
-    <ROW File="select.pyd" Component_="base_library.zip" FileName="select.pyd" Attributes="0" SourcePath="ASFA\_internal\select.pyd" SelfReg="false"/>
+    <ROW File="select.pyd" Component_="api_key.txt" FileName="select.pyd" Attributes="0" SourcePath="ASFA\_internal\select.pyd" SelfReg="false"/>
     <ROW File="entry_points.txt_3" Component_="entry_points.txt_2" FileName="ENTRY_~1.TXT|entry_points.txt" Attributes="0" SourcePath="ASFA\_internal\setuptools-65.5.0.dist-info\entry_points.txt" SelfReg="false"/>
     <ROW File="INSTALLER_6" Component_="entry_points.txt_2" FileName="INSTAL~1|INSTALLER" Attributes="0" SourcePath="ASFA\_internal\setuptools-65.5.0.dist-info\INSTALLER" SelfReg="false"/>
     <ROW File="LICENSE_4" Component_="entry_points.txt_2" FileName="LICENSE" Attributes="0" SourcePath="ASFA\_internal\setuptools-65.5.0.dist-info\LICENSE" SelfReg="false"/>
@@ -1532,15 +1535,15 @@
     <ROW File="DeNoronha_1" Component_="Acre_1" FileName="DENORO~1|DeNoronha" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Brazil\DeNoronha" SelfReg="false"/>
     <ROW File="East_1" Component_="Acre_1" FileName="East" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Brazil\East" SelfReg="false"/>
     <ROW File="West_3" Component_="Acre_1" FileName="West" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Brazil\West" SelfReg="false"/>
-    <ROW File="Atlantic_1" Component_="Atlantic_4" FileName="Atlantic" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Canada\Atlantic" SelfReg="false"/>
-    <ROW File="Central_2" Component_="Atlantic_4" FileName="Central" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Canada\Central" SelfReg="false"/>
-    <ROW File="EastSaskatchewan" Component_="Atlantic_4" FileName="EAST-S~1|East-Saskatchewan" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Canada\East-Saskatchewan" SelfReg="false"/>
-    <ROW File="Eastern_2" Component_="Atlantic_4" FileName="Eastern" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Canada\Eastern" SelfReg="false"/>
-    <ROW File="Mountain_2" Component_="Atlantic_4" FileName="Mountain" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Canada\Mountain" SelfReg="false"/>
-    <ROW File="Newfoundland_1" Component_="Atlantic_4" FileName="NEWFOU~1|Newfoundland" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Canada\Newfoundland" SelfReg="false"/>
-    <ROW File="Pacific_2" Component_="Atlantic_4" FileName="Pacific" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Canada\Pacific" SelfReg="false"/>
-    <ROW File="Saskatchewan_1" Component_="Atlantic_4" FileName="SASKAT~1|Saskatchewan" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Canada\Saskatchewan" SelfReg="false"/>
-    <ROW File="Yukon_1" Component_="Atlantic_4" FileName="Yukon" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Canada\Yukon" SelfReg="false"/>
+    <ROW File="Atlantic_1" Component_="Atlantic_2" FileName="Atlantic" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Canada\Atlantic" SelfReg="false"/>
+    <ROW File="Central_2" Component_="Atlantic_2" FileName="Central" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Canada\Central" SelfReg="false"/>
+    <ROW File="EastSaskatchewan" Component_="Atlantic_2" FileName="EAST-S~1|East-Saskatchewan" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Canada\East-Saskatchewan" SelfReg="false"/>
+    <ROW File="Eastern_2" Component_="Atlantic_2" FileName="Eastern" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Canada\Eastern" SelfReg="false"/>
+    <ROW File="Mountain_2" Component_="Atlantic_2" FileName="Mountain" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Canada\Mountain" SelfReg="false"/>
+    <ROW File="Newfoundland_1" Component_="Atlantic_2" FileName="NEWFOU~1|Newfoundland" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Canada\Newfoundland" SelfReg="false"/>
+    <ROW File="Pacific_2" Component_="Atlantic_2" FileName="Pacific" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Canada\Pacific" SelfReg="false"/>
+    <ROW File="Saskatchewan_1" Component_="Atlantic_2" FileName="SASKAT~1|Saskatchewan" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Canada\Saskatchewan" SelfReg="false"/>
+    <ROW File="Yukon_1" Component_="Atlantic_2" FileName="Yukon" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Canada\Yukon" SelfReg="false"/>
     <ROW File="CET_1" Component_="CET_1" FileName="CET" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\CET" SelfReg="false"/>
     <ROW File="Continental_1" Component_="Continental_1" FileName="CONTIN~1|Continental" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Chile\Continental" SelfReg="false"/>
     <ROW File="EasterIsland_1" Component_="Continental_1" FileName="EASTER~1|EasterIsland" Attributes="0" SourcePath="ASFA\_internal\tcl\tzdata\Chile\EasterIsland" SelfReg="false"/>
@@ -2238,14 +2241,14 @@
     <ROW File="DeNoronha_2" Component_="Acre_2" FileName="DENORO~1|DeNoronha" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Brazil\DeNoronha" SelfReg="false"/>
     <ROW File="East_2" Component_="Acre_2" FileName="East" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Brazil\East" SelfReg="false"/>
     <ROW File="West_5" Component_="Acre_2" FileName="West" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Brazil\West" SelfReg="false"/>
-    <ROW File="Atlantic_2" Component_="Atlantic_5" FileName="Atlantic" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Canada\Atlantic" SelfReg="false"/>
-    <ROW File="Central_4" Component_="Atlantic_5" FileName="Central" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Canada\Central" SelfReg="false"/>
-    <ROW File="Eastern_4" Component_="Atlantic_5" FileName="Eastern" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Canada\Eastern" SelfReg="false"/>
-    <ROW File="Mountain_4" Component_="Atlantic_5" FileName="Mountain" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Canada\Mountain" SelfReg="false"/>
-    <ROW File="Newfoundland_2" Component_="Atlantic_5" FileName="NEWFOU~1|Newfoundland" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Canada\Newfoundland" SelfReg="false"/>
-    <ROW File="Pacific_4" Component_="Atlantic_5" FileName="Pacific" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Canada\Pacific" SelfReg="false"/>
-    <ROW File="Saskatchewan_2" Component_="Atlantic_5" FileName="SASKAT~1|Saskatchewan" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Canada\Saskatchewan" SelfReg="false"/>
-    <ROW File="Yukon_2" Component_="Atlantic_5" FileName="Yukon" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Canada\Yukon" SelfReg="false"/>
+    <ROW File="Atlantic_2" Component_="Atlantic_3" FileName="Atlantic" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Canada\Atlantic" SelfReg="false"/>
+    <ROW File="Central_4" Component_="Atlantic_3" FileName="Central" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Canada\Central" SelfReg="false"/>
+    <ROW File="Eastern_4" Component_="Atlantic_3" FileName="Eastern" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Canada\Eastern" SelfReg="false"/>
+    <ROW File="Mountain_4" Component_="Atlantic_3" FileName="Mountain" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Canada\Mountain" SelfReg="false"/>
+    <ROW File="Newfoundland_2" Component_="Atlantic_3" FileName="NEWFOU~1|Newfoundland" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Canada\Newfoundland" SelfReg="false"/>
+    <ROW File="Pacific_4" Component_="Atlantic_3" FileName="Pacific" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Canada\Pacific" SelfReg="false"/>
+    <ROW File="Saskatchewan_2" Component_="Atlantic_3" FileName="SASKAT~1|Saskatchewan" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Canada\Saskatchewan" SelfReg="false"/>
+    <ROW File="Yukon_2" Component_="Atlantic_3" FileName="Yukon" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Canada\Yukon" SelfReg="false"/>
     <ROW File="CET_2" Component_="CET_2" FileName="CET" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\CET" SelfReg="false"/>
     <ROW File="Continental_2" Component_="Continental_2" FileName="CONTIN~1|Continental" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Chile\Continental" SelfReg="false"/>
     <ROW File="EasterIsland_2" Component_="Continental_2" FileName="EASTER~1|EasterIsland" Attributes="0" SourcePath="ASFA\_internal\tzdata\zoneinfo\Chile\EasterIsland" SelfReg="false"/>
@@ -2482,7 +2485,7 @@
     <ROW File="RECORD_9" Component_="INSTALLER_4" FileName="RECORD" Attributes="0" SourcePath="ASFA\_internal\tzlocal-5.2.dist-info\RECORD" SelfReg="false"/>
     <ROW File="top_level.txt_9" Component_="INSTALLER_4" FileName="TOP_LE~1.TXT|top_level.txt" Attributes="0" SourcePath="ASFA\_internal\tzlocal-5.2.dist-info\top_level.txt" SelfReg="false"/>
     <ROW File="WHEEL_9" Component_="INSTALLER_4" FileName="WHEEL" Attributes="0" SourcePath="ASFA\_internal\tzlocal-5.2.dist-info\WHEEL" SelfReg="false"/>
-    <ROW File="unicodedata.pyd" Component_="base_library.zip" FileName="UNICOD~1.PYD|unicodedata.pyd" Attributes="0" SourcePath="ASFA\_internal\unicodedata.pyd" SelfReg="false"/>
+    <ROW File="unicodedata.pyd" Component_="api_key.txt" FileName="UNICOD~1.PYD|unicodedata.pyd" Attributes="0" SourcePath="ASFA\_internal\unicodedata.pyd" SelfReg="false"/>
     <ROW File="VCRUNTIME140.dll" Component_="VCRUNTIME140.dll" FileName="VCRUNT~1.DLL|VCRUNTIME140.dll" Attributes="0" SourcePath="ASFA\_internal\VCRUNTIME140.dll" SelfReg="false"/>
     <ROW File="_zope_interface_coptimizations.cp311win_amd64.pyd" Component_="_zope_interface_coptimizations.cp311win_amd64.pyd" FileName="_ZOPE_~1.PYD|_zope_interface_coptimizations.cp311-win_amd64.pyd" Attributes="0" SourcePath="ASFA\_internal\zope\interface\_zope_interface_coptimizations.cp311-win_amd64.pyd" SelfReg="false"/>
     <ROW File="INSTALLER_10" Component_="INSTALLER_5" FileName="INSTAL~1|INSTALLER" Attributes="0" SourcePath="ASFA\_internal\zope.event-5.0.dist-info\INSTALLER" SelfReg="false"/>
@@ -2499,29 +2502,25 @@
     <ROW File="RECORD_11" Component_="INSTALLER_6" FileName="RECORD" Attributes="0" SourcePath="ASFA\_internal\zope.interface-6.1.dist-info\RECORD" SelfReg="false"/>
     <ROW File="top_level.txt_11" Component_="INSTALLER_6" FileName="TOP_LE~1.TXT|top_level.txt" Attributes="0" SourcePath="ASFA\_internal\zope.interface-6.1.dist-info\top_level.txt" SelfReg="false"/>
     <ROW File="WHEEL_11" Component_="INSTALLER_6" FileName="WHEEL" Attributes="0" SourcePath="ASFA\_internal\zope.interface-6.1.dist-info\WHEEL" SelfReg="false"/>
-    <ROW File="_asyncio.pyd" Component_="base_library.zip" FileName="_asyncio.pyd" Attributes="0" SourcePath="ASFA\_internal\_asyncio.pyd" SelfReg="false"/>
-    <ROW File="_bz2.pyd" Component_="base_library.zip" FileName="_bz2.pyd" Attributes="0" SourcePath="ASFA\_internal\_bz2.pyd" SelfReg="false"/>
-    <ROW File="_cffi_backend.cp311win_amd64.pyd" Component_="base_library.zip" FileName="_CFFI_~1.PYD|_cffi_backend.cp311-win_amd64.pyd" Attributes="0" SourcePath="ASFA\_internal\_cffi_backend.cp311-win_amd64.pyd" SelfReg="false"/>
-    <ROW File="_ctypes.pyd" Component_="base_library.zip" FileName="_ctypes.pyd" Attributes="0" SourcePath="ASFA\_internal\_ctypes.pyd" SelfReg="false"/>
-    <ROW File="_decimal.pyd" Component_="base_library.zip" FileName="_decimal.pyd" Attributes="0" SourcePath="ASFA\_internal\_decimal.pyd" SelfReg="false"/>
-    <ROW File="_elementtree.pyd" Component_="base_library.zip" FileName="_ELEME~1.PYD|_elementtree.pyd" Attributes="0" SourcePath="ASFA\_internal\_elementtree.pyd" SelfReg="false"/>
-    <ROW File="_hashlib.pyd" Component_="base_library.zip" FileName="_hashlib.pyd" Attributes="0" SourcePath="ASFA\_internal\_hashlib.pyd" SelfReg="false"/>
-    <ROW File="_lzma.pyd" Component_="base_library.zip" FileName="_lzma.pyd" Attributes="0" SourcePath="ASFA\_internal\_lzma.pyd" SelfReg="false"/>
-    <ROW File="_multiprocessing.pyd" Component_="base_library.zip" FileName="_MULTI~1.PYD|_multiprocessing.pyd" Attributes="0" SourcePath="ASFA\_internal\_multiprocessing.pyd" SelfReg="false"/>
-    <ROW File="_overlapped.pyd" Component_="base_library.zip" FileName="_OVERL~1.PYD|_overlapped.pyd" Attributes="0" SourcePath="ASFA\_internal\_overlapped.pyd" SelfReg="false"/>
-    <ROW File="_queue.pyd" Component_="base_library.zip" FileName="_queue.pyd" Attributes="0" SourcePath="ASFA\_internal\_queue.pyd" SelfReg="false"/>
-    <ROW File="_socket.pyd" Component_="base_library.zip" FileName="_socket.pyd" Attributes="0" SourcePath="ASFA\_internal\_socket.pyd" SelfReg="false"/>
-    <ROW File="_ssl.pyd" Component_="base_library.zip" FileName="_ssl.pyd" Attributes="0" SourcePath="ASFA\_internal\_ssl.pyd" SelfReg="false"/>
-    <ROW File="_testcapi.pyd" Component_="base_library.zip" FileName="_TESTC~1.PYD|_testcapi.pyd" Attributes="0" SourcePath="ASFA\_internal\_testcapi.pyd" SelfReg="false"/>
-    <ROW File="_testinternalcapi.pyd" Component_="base_library.zip" FileName="_TESTI~1.PYD|_testinternalcapi.pyd" Attributes="0" SourcePath="ASFA\_internal\_testinternalcapi.pyd" SelfReg="false"/>
-    <ROW File="_tkinter.pyd" Component_="base_library.zip" FileName="_tkinter.pyd" Attributes="0" SourcePath="ASFA\_internal\_tkinter.pyd" SelfReg="false"/>
-    <ROW File="_uuid.pyd" Component_="base_library.zip" FileName="_uuid.pyd" Attributes="0" SourcePath="ASFA\_internal\_uuid.pyd" SelfReg="false"/>
-    <ROW File="_zoneinfo.pyd" Component_="base_library.zip" FileName="_ZONEI~1.PYD|_zoneinfo.pyd" Attributes="0" SourcePath="ASFA\_internal\_zoneinfo.pyd" SelfReg="false"/>
+    <ROW File="_asyncio.pyd" Component_="api_key.txt" FileName="_asyncio.pyd" Attributes="0" SourcePath="ASFA\_internal\_asyncio.pyd" SelfReg="false"/>
+    <ROW File="_bz2.pyd" Component_="api_key.txt" FileName="_bz2.pyd" Attributes="0" SourcePath="ASFA\_internal\_bz2.pyd" SelfReg="false"/>
+    <ROW File="_cffi_backend.cp311win_amd64.pyd" Component_="api_key.txt" FileName="_CFFI_~1.PYD|_cffi_backend.cp311-win_amd64.pyd" Attributes="0" SourcePath="ASFA\_internal\_cffi_backend.cp311-win_amd64.pyd" SelfReg="false"/>
+    <ROW File="_ctypes.pyd" Component_="api_key.txt" FileName="_ctypes.pyd" Attributes="0" SourcePath="ASFA\_internal\_ctypes.pyd" SelfReg="false"/>
+    <ROW File="_decimal.pyd" Component_="api_key.txt" FileName="_decimal.pyd" Attributes="0" SourcePath="ASFA\_internal\_decimal.pyd" SelfReg="false"/>
+    <ROW File="_elementtree.pyd" Component_="api_key.txt" FileName="_ELEME~1.PYD|_elementtree.pyd" Attributes="0" SourcePath="ASFA\_internal\_elementtree.pyd" SelfReg="false"/>
+    <ROW File="_hashlib.pyd" Component_="api_key.txt" FileName="_hashlib.pyd" Attributes="0" SourcePath="ASFA\_internal\_hashlib.pyd" SelfReg="false"/>
+    <ROW File="_lzma.pyd" Component_="api_key.txt" FileName="_lzma.pyd" Attributes="0" SourcePath="ASFA\_internal\_lzma.pyd" SelfReg="false"/>
+    <ROW File="_multiprocessing.pyd" Component_="api_key.txt" FileName="_MULTI~1.PYD|_multiprocessing.pyd" Attributes="0" SourcePath="ASFA\_internal\_multiprocessing.pyd" SelfReg="false"/>
+    <ROW File="_overlapped.pyd" Component_="api_key.txt" FileName="_OVERL~1.PYD|_overlapped.pyd" Attributes="0" SourcePath="ASFA\_internal\_overlapped.pyd" SelfReg="false"/>
+    <ROW File="_queue.pyd" Component_="api_key.txt" FileName="_queue.pyd" Attributes="0" SourcePath="ASFA\_internal\_queue.pyd" SelfReg="false"/>
+    <ROW File="_socket.pyd" Component_="api_key.txt" FileName="_socket.pyd" Attributes="0" SourcePath="ASFA\_internal\_socket.pyd" SelfReg="false"/>
+    <ROW File="_ssl.pyd" Component_="api_key.txt" FileName="_ssl.pyd" Attributes="0" SourcePath="ASFA\_internal\_ssl.pyd" SelfReg="false"/>
+    <ROW File="_testcapi.pyd" Component_="api_key.txt" FileName="_TESTC~1.PYD|_testcapi.pyd" Attributes="0" SourcePath="ASFA\_internal\_testcapi.pyd" SelfReg="false"/>
+    <ROW File="_testinternalcapi.pyd" Component_="api_key.txt" FileName="_TESTI~1.PYD|_testinternalcapi.pyd" Attributes="0" SourcePath="ASFA\_internal\_testinternalcapi.pyd" SelfReg="false"/>
+    <ROW File="_tkinter.pyd" Component_="api_key.txt" FileName="_tkinter.pyd" Attributes="0" SourcePath="ASFA\_internal\_tkinter.pyd" SelfReg="false"/>
+    <ROW File="_uuid.pyd" Component_="api_key.txt" FileName="_uuid.pyd" Attributes="0" SourcePath="ASFA\_internal\_uuid.pyd" SelfReg="false"/>
+    <ROW File="_zoneinfo.pyd" Component_="api_key.txt" FileName="_ZONEI~1.PYD|_zoneinfo.pyd" Attributes="0" SourcePath="ASFA\_internal\_zoneinfo.pyd" SelfReg="false"/>
     <ROW File="ASFA.exe" Component_="ASFA.exe" FileName="ASFA.exe" Attributes="0" SourcePath="ASFA\ASFA.exe" SelfReg="false" DigSign="true"/>
-  </COMPONENT>
-  <COMPONENT cid="caphyon.advinst.custcomp.MsiShortcutPropertyComponent">
-    <ROW MsiShortcutProperty="ASFA0" Shortcut_="ASFA" PropertyKey="System.AppUserModel.PreventPinning" PropVariantValue="1"/>
-    <ROW MsiShortcutProperty="ASFA1" Shortcut_="ASFA" PropertyKey="[AiPreventAutoPin]" PropVariantValue="1"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
     <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
@@ -2578,6 +2577,7 @@
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
     <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
     <ROW Action="AI_ApplyShortcutFlags" Type="3073" Source="ShortcutFlags.dll" Target="UpdateShortcutFlags" WithoutSeq="true"/>
@@ -2595,7 +2595,6 @@
     <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
     <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
     <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
-    <ROW Action="AI_SelectAutoPinOption" Type="51" Source="AiPreventAutoPin" Target="System.AppUserModel.StartPinOption"/>
     <ROW Action="AI_UnpinFromStartScreen" Type="1025" Source="ShortcutFlags.dll" Target="UnpinFromStartScreen" WithoutSeq="true"/>
     <ROW Action="AI_UnpinFromTaskbar" Type="1025" Source="ShortcutFlags.dll" Target="UnpinFromTaskbar" WithoutSeq="true"/>
     <ROW Action="AI_UnpinShortcuts" Type="1" Source="ShortcutFlags.dll" Target="UnpinShortcuts"/>
@@ -2606,8 +2605,8 @@
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
     <ROW Feature_="MainFeature" Component_="APPDIR"/>
     <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="api_key.txt"/>
     <ROW Feature_="MainFeature" Component_="entry_points.txt"/>
-    <ROW Feature_="MainFeature" Component_="base_library.zip"/>
     <ROW Feature_="MainFeature" Component_="cacert.pem"/>
     <ROW Feature_="MainFeature" Component_="entry_points.txt_1"/>
     <ROW Feature_="MainFeature" Component_="corecext.cp311win_amd64.pyd"/>
@@ -2663,7 +2662,7 @@
     <ROW Feature_="MainFeature" Component_="Azores_1"/>
     <ROW Feature_="MainFeature" Component_="ACT_1"/>
     <ROW Feature_="MainFeature" Component_="Acre_1"/>
-    <ROW Feature_="MainFeature" Component_="Atlantic_4"/>
+    <ROW Feature_="MainFeature" Component_="Atlantic_2"/>
     <ROW Feature_="MainFeature" Component_="CET_1"/>
     <ROW Feature_="MainFeature" Component_="Continental_1"/>
     <ROW Feature_="MainFeature" Component_="GMT_1"/>
@@ -2696,7 +2695,7 @@
     <ROW Feature_="MainFeature" Component_="Azores_2"/>
     <ROW Feature_="MainFeature" Component_="ACT_2"/>
     <ROW Feature_="MainFeature" Component_="Acre_2"/>
-    <ROW Feature_="MainFeature" Component_="Atlantic_5"/>
+    <ROW Feature_="MainFeature" Component_="Atlantic_3"/>
     <ROW Feature_="MainFeature" Component_="CET_2"/>
     <ROW Feature_="MainFeature" Component_="Continental_2"/>
     <ROW Feature_="MainFeature" Component_="GMT_2"/>
@@ -2713,6 +2712,7 @@
     <ROW Feature_="MainFeature" Component_="INSTALLER_5"/>
     <ROW Feature_="MainFeature" Component_="INSTALLER_6"/>
     <ROW Feature_="MainFeature" Component_="ASFA.exe"/>
+    <ROW Feature_="MainFeature" Component_="SHORTCUTDIR"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
     <ROW Name="ASFA.exe" SourcePath="..\icon.ico" Index="0"/>
@@ -2727,7 +2727,6 @@
     <ROW Action="AI_PrepareShortcutFlags" Condition="(VersionNT &gt; 501) AND ((NOT Installed) OR (Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;)))" Sequence="4501"/>
     <ROW Action="AI_PinShortcuts" Condition="(VersionNT &gt; 600) AND ((NOT Installed) OR (Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;)))" Sequence="6499"/>
     <ROW Action="AI_UnpinShortcuts" Condition="(VersionNT &gt; 600) AND (REMOVE = &quot;ALL&quot;)" Sequence="3199"/>
-    <ROW Action="AI_SelectAutoPinOption" Condition="VersionNT &gt; 601" Sequence="1401"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
     <ROW Action="AI_PRESERVE_INSTALL_TYPE" Sequence="199"/>
@@ -2751,13 +2750,16 @@
     <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
-    <ROW Shortcut="ASFA" Directory_="StartupFolder" Name="ASFA" Component_="ASFA.exe" Target="[#ASFA.exe]" Hotkey="0" Icon_="ASFA.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR" CustomFlags="1"/>
+    <ROW Shortcut="ASFA" Directory_="SHORTCUTDIR" Name="ASFA" Component_="ASFA.exe" Target="[#ASFA.exe]" Hotkey="0" Icon_="ASFA.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="ASFA1" Directory_="StartupFolder" Name="ASFA" Component_="ASFA.exe" Target="[#ASFA.exe]" Hotkey="0" Icon_="ASFA.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="ASFA1_1" Directory_="DesktopFolder" Name="ASFA" Component_="ASFA.exe" Target="[#ASFA.exe]" Hotkey="0" Icon_="ASFA.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="ASFA1_2" Directory_="ProgramMenuFolder" Name="ASFA" Component_="ASFA.exe" Target="[#ASFA.exe]" Hotkey="0" Icon_="ASFA.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
     <ATTRIBUTE name="UsedTheme" value="classic"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
-    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="255.255.6555.6555" Attributes="257" ActionProperty="OLDPRODUCTS"/>
-    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="255.255.6555.6555" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
   </COMPONENT>
 </DOCUMENT>

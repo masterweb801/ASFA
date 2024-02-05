@@ -1,11 +1,18 @@
+import os
+import sys
 import telegram.ext
 import subprocess
 
 api_key = ""
 
-file = open("./api_key.txt", "r")
-api_key += file.read()
-file.close()
+try:
+    with open(os.path.join(sys.path[2], "api_key.txt"), "r") as file:
+        api_key += file.read()
+        file.close()
+except FileNotFoundError:
+    with open(os.path.join(sys.path[0], "api_key.txt"), "r") as file:
+        api_key += file.read()
+        file.close()
 
 def handle_message(update, context):
     usr = update.message.text
