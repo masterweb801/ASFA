@@ -1,8 +1,11 @@
 import telegram.ext
 import subprocess
 
-api_key = "6833801365:AAH8Xjr3rZp9_nfYzz3qcXqtbofsjANvCIA"
+api_key = ""
 
+file = open("./api_key.txt", "r")
+api_key += file.read()
+file.close()
 
 def handle_message(update, context):
     usr = update.message.text
